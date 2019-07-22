@@ -5,10 +5,17 @@ services:
       context: .
       dockerfile: Dockerfile.dev
     ports:
+<<<<<<< HEAD
       - "3000:3000"
     volumes:
       - /app/node_modules
       - .:/app
+=======
+      - "4000:3000"
+    volumes:
+      - /app/node_modules
+      - .:/app 
+>>>>>>> 3ea6aa9555be7598d6be175d3b4d79381a0c0a82
   tests:
     build:
       context: .
