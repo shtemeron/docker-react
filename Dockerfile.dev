@@ -3,10 +3,6 @@ FROM node:alpine
 WORKDIR '/app'
 
 COPY package.json .
-<<<<<<< HEAD
-=======
-
->>>>>>> 3ea6aa9555be7598d6be175d3b4d79381a0c0a82
 RUN npm install
 
 COPY . .
